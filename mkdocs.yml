@@ -1,0 +1,11 @@
+site_name: Readthedocs with Mkdocs
+docs_dir: 'docs/'
+extra_javascript:
+  - 'javascripts/extra.js'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+pages:
+    - Home: index.md
+    - getting_started.md
+    - another_page.md
+theme:
+    name: readthedocs  
